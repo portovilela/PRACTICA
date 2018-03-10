@@ -16,5 +16,6 @@ public class Lanzador
        inv1.setEmail("portovilela@gmail.com");
        inv1.setPuesto(Puesto.PROF_AYUDANTE);
        inv1.mostrarInfoInvestigador();
+       System.out.println("");
     }
 }
