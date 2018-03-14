@@ -10,7 +10,12 @@ package com.porto.practica1718;
 public enum Puesto
 {
     PROF_AYUDANTE("Profesor Ayudante"),
-    PROF_AYUDANTE_DOCTOR("Profesor Ayudante Doctor");
+    PROF_AYUDANTE_DOCTOR("Profesor Ayudante Doctor"),
+    PROF_CONTRATADO_DOCTOR("Profesor Contratado Doctor"),
+    PROF_TITULAR("Profesor Titular"),
+    CATEDRATICO("Catedratico"),
+    INVEST_CONTRATADO("Investigador contratado"),
+    BECARIO("Becario");
     
     private String puesto;
     private Puesto(String puesto){
@@ -19,5 +24,6 @@ public enum Puesto
     public String getPuesto()  {
         return this.puesto;
     }
+ 
 }
     

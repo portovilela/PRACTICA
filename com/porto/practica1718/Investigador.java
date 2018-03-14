@@ -21,6 +21,7 @@ public class Investigador
     private String apellidos;
     private String email;
     private Puesto puesto;
+    private Institucion institucion;
 
     /**
      * Constructor for objects of class Investigador
